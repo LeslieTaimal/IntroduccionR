@@ -16,6 +16,17 @@ Crear un identificador de nombre "pais_andes" y asigne como valor los nombres de
 ```{r}
 pais_andes <- c("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Perú", "Venezuela")
 ```
+#Ejercicio 3 
+Crear un dataframe con 12 eventos (files) y 5 variables (columnas), 
+cada columna debe tener diferentes tipos de datos (entero, decimal, 
+caracter, logico)
+```{r}
+Peso <- data.frame(identador = seq(1:12),
+                   nombres = c("Pablo", "Juan", "Milena", "Mireya", "Sofia", "Sebastian","Lucas","Mateo", "Mickaela","Alejandra", "Cristian", "Luna"),
+                   peso = c(17.1, 18.5, 19.5, 17.5, 22.2, 24.6, 22.6, 23.5, 18.5, 18.3, 17, 16.5),
+                   definicion_peso = as.factor(c("Bajo peso", "Normal", "Sobrepeso")),
+                   peso_normal = sample(18.5:28.9, 12, replace = TRUE))
+```
 
 
 
