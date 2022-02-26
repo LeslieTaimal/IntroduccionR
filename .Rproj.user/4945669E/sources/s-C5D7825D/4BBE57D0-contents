@@ -40,6 +40,7 @@ help("DNase")
 concentracion = subset(DNase, conc >= 0.1 & conc <= 0.2 )
 print(concentracion)
 correr = subset(DNase, Run !=2 & density <= 1 )
+print(correr)
 ```
 
 
