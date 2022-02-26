@@ -1,0 +1,10 @@
+---
+title: "Introduccion R"
+author: "Leslie Taimal"
+date: '2022-02-26'
+output: html_document
+---
+##Ejercicio1
+Crear un identificador de nombre "ciudad" y asigne 
+como valor el nombre de alguna ciudad
+

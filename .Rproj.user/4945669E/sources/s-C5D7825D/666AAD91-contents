@@ -1,0 +1,13 @@
+---
+title: "Introducción"
+author: "Leslie Taimal"
+date: '2022-02-26'
+output: html_document
+---
+##Ejercicio 1 
+Crear un identificador de nombre "pais_andes" y asigne como valor 
+los nombres de los países por donde cruza la cordillera de Los Andes
+```{r}
+ciudad <- "Quito"
+```
+
